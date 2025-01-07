@@ -1,0 +1,329 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-left: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    background: #fff;
+    color: #f12711;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero button:hover {
+    background: #ffdab9;
+  }
+  
+  /* Products Section */
+  .products {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* More compact columns */
+    gap: 15px; /* Reduced spacing between products */
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .product-card p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f12711;
+    font-size: 0.9rem;
+  }
+  
+  .product-card button {
+    padding: 8px 10px;
+    border: none;
+    background: #f12711;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 5px;
+  }
+  
+  .product-card button:hover {
+    background: #f5af19;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav ul li {
+      margin: 5px 0;
+    }
+  
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .product-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Smaller grid for mobile */
+      gap: 10px;
+    }
+  
+    .product-card h3 {
+      font-size: 0.9rem;
+    }
+  
+    .product-card p {
+      font-size: 0.8rem;
+    }
+  
+    .product-card button {
+      font-size: 0.7rem;
+    }
+  }
+
+  .product-card img {
+    max-width: 100%; /* Ensures the image fills the container width */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 5px; /* Rounds the corners of the image */
+    margin-bottom: 10px; /* Adds space between the image and the text */
+    display: block; /* Ensures the image behaves like a block element */
+    object-fit: contain; /* Ensures the image is fully visible and fits within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to the image */
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin-left: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sidebar Styles (for phone view) */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hidden */
+    width: 250px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding-top: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Menu Icon (hamburger) */
+  .menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    display: none; /* Hidden by default */
+  }
+  
+  /* Sidebar when active */
+  .sidebar.active {
+    right: 0;
+  }
+  
+  /* Responsive Design for Phone View */
+  @media (max-width: 768px) {
+    header nav ul {
+      display: none; /* Hide default navigation menu */
+    }
+  
+    .menu-icon {
+      display: block; /* Show menu icon on smaller screens */
+    }
+  }
+  

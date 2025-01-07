@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Responsive E-Commerce Store</title>
+</head>
+<body>
+    <header>
+        <div class="logo">ShopEase</div>
+        <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- Sidebar -->
+      <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">&times;</button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Cart</a></li>
+        </ul>
+      </div>
+      
+  
+  <main>
+    <section class="hero">
+      <h1>Welcome to ShopEase</h1>
+      <p>Discover your favorite products at the best prices.</p>
+      <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product-card">
+          <img src="https://img.freepik.com/free-photo/women-s-day-still-life-with-makeup-jewelry_23-2149263157.jpg?t=st=1736266553~exp=1736270153~hmac=c21d01e50acc708f0ce4261b12c9b50b92acdccef1d965a6288dc59fa006d356&w=740" alt="Product 1">
+          <h3>Product Name</h3>
+          <p>$29.99</p>
+          <button>Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+        <div class="product-card">
+          <img src="https://img.freepik.com/free-photo/women-s-day-still-life-with-makeup-jewelry_23-2149263199.jpg?t=st=1736266525~exp=1736270125~hmac=50e93b4a077d16ea7db8c2ada6ba89d698a8b1bde038b1871141f2308f3efc0f&w=740" alt="Product 2">
+          <h3>Another Product</h3>
+          <p>$49.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/3d-rendering-pink-floral-arrangement_23-2150850901.jpg?t=st=1736266482~exp=1736270082~hmac=6045e75725a0785e1b7191eb0bd11df01b07e8d8109cc1f9484cd0955baf010f&w=900" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/3d-rendering-personal-care-products-fondant-pink_23-2151053864.jpg?t=st=1736266450~exp=1736270050~hmac=8156d8733902d3f3deba249ae77a7edd1ac62133bcbc29a80b6f011d359d703a&w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/model-career-kit-still-life_23-2150218015.jpg?t=st=1736266415~exp=1736270015~hmac=66fd896e9bbeb47a072709a79cbc23db2b90240e00b4b8a32c022e614ab83797&w=740" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/3d-rendering-personal-care-products-fondant-pink_23-2151053863.jpg?t=st=1736266389~exp=1736269989~hmac=47320b2ba7ccfd389428ffeb0224cd6bea593cfaca803b0d23ea7d4c3c8b0acc&w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="https://img.freepik.com/premium-photo/different-makeup-cosmetics-champagne-pink-background-female-accessories_185193-7448.jpg?w=740" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/beauty-care-cosmetic-product-with-pink-tones_23-2151005555.jpg?t=st=1736266295~exp=1736269895~hmac=ce2f2f224846e7f37684cf10bc09c7ae52cda9ba8d27880b0de7a14995201af2&w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-vector/makeup-cosmetics-accessories-shelf-realistic-image_1284-9312.jpg?t=st=1736266272~exp=1736269872~hmac=03c4d0325ce707ebdf29eea63f9626c25bb28c5e387201672ea5b2f1bea02d7b&w=740" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/beauty-spa-feminine-concept-different-make-up-beauty-care-essentials-cosmetics-flat-lay-white-background-top-view_1220-1812.jpg?t=st=1736266242~exp=1736269842~hmac=aae440ceef99ad07a31bfec0223b21433f1f2368c88f9b1c2394dc3f97dde940&w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-photo/collection-beauty-products-with-copy-space_23-2148620110.jpg?t=st=1736266211~exp=1736269811~hmac=937849267268942e2a2280a9a892dbe404695b8f9a4b11ec9e6bfd898827b08a&w=740" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/premium-psd/book-mockup-with-cosmetic-concept_23-2147962477.jpg?w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644335.jpg?t=st=1736266130~exp=1736269730~hmac=2a607124ef6a8558a5ee9c2bf1858e83a3a9c1fa2228b36996b9b0d896091e4a&w=740" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more products as needed -->
+          <div class="product-card">
+            <img src="https://img.freepik.com/free-psd/beauty-sales-podium-background_23-2151644325.jpg?t=st=1736266099~exp=1736269699~hmac=50b9da83e216e420929acab9f0369bf9e823a377c0a6e53990c207a55a61a7a9&w=740" alt="Product 2">
+            <h3>Another Product</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
