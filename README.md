@@ -1,4 +1,4 @@
-# Product Listing Website
+# Product Listing Store
 
  This project is a simple, responsive website built with HTML, CSS, and JavaScript to showcase products in a visually appealing way.
 
