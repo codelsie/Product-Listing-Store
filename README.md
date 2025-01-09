@@ -1,6 +1,6 @@
-# Product Showcase Website
+# Product Listing Website
 
-Welcome to the **Product Showcase Website** repository! This project is a simple, responsive website built with HTML, CSS, and JavaScript to showcase products in a visually appealing way.
+ This project is a simple, responsive website built with HTML, CSS, and JavaScript to showcase products in a visually appealing way.
 
 ![Product Listing Website Screenshot](https://github.com/codelsie/Product-Listing-Store/blob/master/Screenshot%20from%202025-01-09%2012-31-07.png)
 
